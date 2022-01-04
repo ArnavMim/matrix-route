@@ -67,5 +67,5 @@ var input2 = document.getElementById("to");
 var autocomplete2 = new google.maps.places.Autocomplete(input2, options);
 
 // show error message
-            output.innerHTML = "<div class='alert-danger'><i class='fas fa-exclamation-triangle'></i> Could not retrieve driving distance.</div>";
+output.innerHTML = "<div class='alert-danger'><i class='fas fa-exclamation-triangle'></i> Could not retrieve driving distance.</div>";
         
